@@ -1,6 +1,5 @@
 # SaveBrowser
 Browser Backup App
-Browser Backup App
 
 A simple GUI application for backing up and restoring browser profiles for Firefox and Edge browsers on Windows operating system. The application creates a zip file of the browser profile folder for backup and extracts the backup file to the browser profile folder for restore.
 Getting Started
