@@ -1,15 +1,16 @@
 # SaveBrowser
 Browser Backup App
 
-A simple GUI application for backing up and restoring browser profiles for Firefox and Edge browsers on Windows operating system. The application creates a zip file of the browser profile folder for backup and extracts the backup file to the browser profile folder for restore.
+Une application graphique simple pour sauvegarder et restaurer les profils de navigateur pour les navigateurs Firefox et Edge sur le système d'exploitation Windows. L'application crée un fichier zip du dossier du profil du navigateur pour la sauvegarde et extrait le fichier de sauvegarde dans le dossier du profil du navigateur pour la restauration. Commencer
 Getting Started
 
-To use this application, follow these steps:
+Pour utiliser cette application, suivez ces étapes:
 
-    Clone the repository to your local machine.
-    Install the required libraries using pip install -r requirements.txt.
-    Run the browser_backup.py script to start the application.
-    Select the browsers to backup/restore, the export folder for the backup files, and click on the Backup/Restore button to perform the operation.
+    Clonez le référentiel sur votre ordinateur local.
+    Installez les bibliothèques requises à l'aide de pip install -r requirements.txt.
+    Exécutez le script browser_backup.py pour démarrer l'application.
+    Sélectionnez les navigateurs à sauvegarder/restaurer, le dossier d'exportation des fichiers de sauvegarde et cliquez sur le bouton Sauvegarder/Restaurer pour effectuer l'opération.
+
 
 Prerequisites
 
@@ -20,18 +21,19 @@ Prerequisites
 
 Usage
 
-When you run the browser_backup.py script, the GUI window will appear. You can select the browsers to backup/restore by checking the checkboxes for Firefox and/or Edge. You can also select the export folder for the backup files by clicking on the "..." button next to the input field.
+Lorsque vous exécutez le script browser_backup.py, la fenêtre GUI apparaît. Vous pouvez sélectionner les navigateurs à sauvegarder/restaurer en cochant les cases de Firefox et/ou Edge. Vous pouvez également sélectionner le dossier d'exportation pour les fichiers de sauvegarde en cliquant sur le bouton "..." à côté du champ de saisie.
 
-To perform a backup, click on the Backup button. The application will create a new folder with the browser name in the export folder, copy the browser profile folder to the new folder, create a zip file of the new folder, and delete the new folder.
+Pour effectuer une sauvegarde, cliquez sur le bouton Sauvegarder. L'application créera un nouveau dossier avec le nom du navigateur dans le dossier d'exportation, copiera le dossier du profil du navigateur dans le nouveau dossier, créera un fichier zip du nouveau dossier et supprimera le nouveau dossier.
 
-To perform a restore, click on the Restore button. The application will prompt you to select the backup file to restore. Once you select the backup file, the application will extract the backup file to the browser profile folder.
+Pour effectuer une restauration, cliquez sur le bouton Restaurer. L'application vous demandera de sélectionner le fichier de sauvegarde à restaurer. Une fois que vous avez sélectionné le fichier de sauvegarde, l'application extraira le fichier de sauvegarde dans le dossier du profil du navigateur.
+
 Contributing
 
-Contributions to this project are welcome. You can contribute by:
+Les contributions à ce projet sont les bienvenues. Vous pouvez contribuer en :
 
-    Adding support for other browsers and platforms.
-    Adding additional features to the application.
-    Fixing bugs and issues.
+    Ajout de la prise en charge d'autres navigateurs et plates-formes.
+    Ajout de fonctionnalités supplémentaires à l'application.
+    Correction de bogues et de problèmes.
 
 License
 
